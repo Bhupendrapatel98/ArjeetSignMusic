@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activity.SplashActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/arjjjjj"
+        android:scaleType="fitXY"/>
+
+    <LinearLayout
+        android:gravity="center"
+        android:background="#950C0C0C"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:fontFamily="@font/reg"
+            android:textSize="50sp"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Music ......"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:fontFamily="@font/reg"
+        android:layout_marginBottom="40dp"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Created by Bhupendra patel"/>
+
+</RelativeLayout>
